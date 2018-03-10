@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  </head>
+  <body>
+    <div class="grid">
+      <!-- <div class='flex-container'> -->
+        <div class="cell zero">
+        <div id="displayUser"> <p> Andrew is chat: </p> </div>
+      </div>
+
+      <div class="cell zero1">
+      <div id="onlineLabel"> <p> Online Users: </p> </div>
+    </div>
+
+        <div class="cell one">
+          <ul id="messages"></ul>
+        </div>
+        <div class="cell two">
+
+          <div id="online"></div>
+
+        </div>
+        <div class="cell three">
+          <!-- <form action=""> -->
+            <input id="m" autocomplete="off" value=/>
+          <!-- </form> -->
+        </div>
+
+    </div>
+     <script src="chat.js"></script>
+    <!-- <script src="..index.js"></script> -->
+  </body>
+</html>
